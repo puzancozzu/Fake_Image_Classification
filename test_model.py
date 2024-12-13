@@ -129,6 +129,7 @@ test_image_path = "./WIN_20230612_13_30_46_Pro.jpg" #'d:/Project/test.webp'
 
 # Display image
 image = cv2.imread(test_image_path)
+print(image.shape)
 plt.imshow(cv2.cvtColor(image, cv2.COLOR_BGR2RGB))
 plt.show()
 
