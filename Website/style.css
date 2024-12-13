@@ -1,0 +1,98 @@
+& when not (@fullScreen) {
+    padding-top: (@paddingTop * 1rem);
+    padding-bottom: (@paddingBottom * 1rem);
+  }
+  & when (@bg-type = 'color') {
+    background-color: @bg-value;
+  }
+  & when (@bg-type = 'image') {
+    background-image: url(@bg-value);
+  }
+  .mbr-fallback-image.disabled {
+    display: none;
+  }
+  .mbr-fallback-image {
+    display: block;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    & when (@bg-type = 'video') {
+      background-image: url(@fallBackImage);
+    }
+  }
+  & when (@fullWidth) {
+    .container-fluid {
+      padding: 0 50px;
+      @media (max-width: 992px) {
+        padding: 0 16px;
+      }
+    }
+  }
+  .container {
+    @media (max-width: 992px) {
+      padding: 0 16px;
+    }
+  }
+  .card {
+    justify-content: center;
+  }
+  .content-wrapper {
+    @media (max-width: 992px) {
+      margin-bottom: 32px;
+    }
+    .mbr-section-title {
+      margin-bottom: 64px;
+      @media (max-width: 992px) {
+        margin-bottom: 32px;
+      }
+    }
+    .text-wrapper {
+      .mbr-text {
+        display: inline-flex;
+        width: 60%;
+        margin-bottom: 32px;
+        @media (max-width: 1200px) {
+          width: 100%;
+        }
+      }
+    }
+  }
+  .image-wrapper {
+    margin-left: 32px;
+    @media (max-width: 992px) {
+      margin-left: 0;
+    }
+    & when (@reverseContent) {
+      margin-left: 0;
+      margin-right: 32px;
+      @media (max-width: 992px) {
+        margin-right: 0;
+      }
+    }
+    img {
+      height: 660px;
+      width: 100%;
+      object-fit: cover;
+      box-shadow: 6px 8px 0 0 @shadow;
+      border-radius: 24px !important;
+      @media (max-width: 992px) {
+        height: 350px;
+      }
+    }
+  }
+  .mbr-section-title {
+    color: #ffffff;
+  }
+  .mbr-text {
+    color: #ffffff;
+  }
+  .mbr-section-title, .mbr-section-btn {
+    color: #000000;
+  }
+  .mbr-text, .text-wrapper {
+    color: #000000;
+  }
+  

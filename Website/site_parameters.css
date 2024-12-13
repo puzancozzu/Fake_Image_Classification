@@ -1,0 +1,215 @@
+[
+	{
+		"type": "title",
+		"title": "Site Styles"
+	},
+	{
+		"type": "subtitle",
+		"title": "Colors"
+	},
+	{
+		"var": "backgroundColor",
+		"type": "color",
+		"title": "Background",
+		"groupName": "colors",
+		"default": "#ffffff"
+	},
+	{
+		"var": "primaryColor",
+		"type": "color",
+		"title": "Primary",
+		"groupName": "colors",
+		"default": "#000000"
+	},
+	{
+		"type": "colors",
+		"title": "Buttons and Links",
+		"groupName": "colors",
+		"set": [
+			{
+				"var": "secondaryColor",
+				"default": "#6A2BE9"
+			},
+			{
+				"var": "successColor",
+				"default": "#C6F15C"
+			},
+			{
+				"var": "infoColor",
+				"default": "#ffffff"
+			},
+			{
+				"var": "warningColor",
+				"default": "#FEB591"
+			},
+			{
+				"var": "dangerColor",
+				"default": "#f0a2fd"
+			}
+		]
+	},
+	{
+		"type": "subtitle",
+		"title": "Fonts"
+	},
+	{
+		"var": "mainFont",
+		"default": "Bricolage Grotesque"
+	},
+	{
+		"type": "group",
+		"rule": ".mbr-fonts-style, [mbr-buttons], [mbr-menu]",
+		"title": "Title 1",
+		"name": "display-1",
+		"set": [
+			{
+				"type": "font",
+				"var": "display1Font",
+				"default": "Bricolage Grotesque"
+			},
+			{
+				"type": "range",
+				"min": 0.4,
+				"max": 12,
+				"step": 0.2,
+				"var": "display1Size",
+				"default": 7.6
+			}
+		]
+	},
+	{
+		"type": "group",
+		"rule": ".mbr-fonts-style, [mbr-buttons], [mbr-menu]",
+		"title": "Title 2",
+		"name": "display-2",
+		"set": [
+			{
+				"type": "font",
+				"var": "display2Font",
+				"default": "Bricolage Grotesque"
+			},
+			{
+				"type": "range",
+				"min": 0.4,
+				"max": 6,
+				"step": 0.2,
+				"var": "display2Size",
+				"default": 5.5
+			}
+		]
+	},
+	{
+		"type": "group",
+		"rule": ".mbr-fonts-style, [mbr-buttons], [mbr-menu]",
+		"title": "Title 3",
+		"name": "display-5",
+		"set": [
+			{
+				"type": "font",
+				"var": "display5Font",
+				"default": "Bricolage Grotesque"
+			},
+			{
+				"type": "range",
+				"min": 0.4,
+				"max": 5,
+				"step": 0.2,
+				"var": "display5Size",
+				"default": 4.5
+			}
+		]
+	},
+	{
+		"type": "group",
+		"rule": ".mbr-fonts-style, [mbr-buttons], [mbr-menu]",
+		"title": "Text",
+		"name": "display-7",
+		"set": [
+			{
+				"type": "font",
+				"var": "display7Font",
+				"default": "Manrope"
+			},
+			{
+				"type": "range",
+				"min": 0.4,
+				"max": 2,
+				"step": 0.2,
+				"var": "display7Size",
+				"default": 1.75
+			}
+		]
+	},
+	{
+		"type": "group",
+		"rule": ".mbr-fonts-style, [mbr-buttons], [mbr-menu]",
+		"title": "Menu",
+		"name": "display-4",
+		"set": [
+			{
+				"type": "font",
+				"var": "display4Font",
+				"default": "Manrope"
+			},
+			{
+				"type": "range",
+				"min": 0.4,
+				"max": 2,
+				"step": 0.2,
+				"var": "display4Size",
+				"default": 1.25
+			}
+		]
+	},
+	{
+		"type": "subtitle",
+		"title": "Options"
+	},
+	{
+		"var": "isRoundedImages",
+		"type": "switch",
+		"title": "Rounded Corners",
+		"default": true
+	},
+	{
+		"var": "isRoundedButtons",
+		"type": "switch",
+		"title": "Rounded Buttons",
+		"default": true
+	},
+	{
+		"var": "isLargeButtons",
+		"type": "switch",
+		"title": "Large Buttons",
+		"default": true
+	},
+	{
+		"var": "isGhostButtonBorder",
+		"default": true
+	},
+	{
+		"var": "underlinedLinks",
+		"type": "switch",
+		"title": "Underlined Links",
+		"default": false
+	},
+	{
+		"var": "isAnimatedOnScroll",
+		"type": "switch",
+		"title": "Animation on Scroll",
+		"default": false
+	},
+	{
+		"var": "isScrollToTopButton",
+		"type": "switch",
+		"title": "Scroll to Top Button",
+		"default": false
+	},
+	{
+		"var": "backgroundColor",
+		"type": "color",
+		"title": "Background",
+		"groupName": "colors",
+		"default": "#ffffff"
+	}
+]
