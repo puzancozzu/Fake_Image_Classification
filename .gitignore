@@ -1,5 +1,6 @@
 # Ignore Python virtual environments
 .venv/
+new_fake/
 
 # Ignore common Python artifacts
 __pycache__/

@@ -13,9 +13,9 @@ from test_model import featureExtractionLayer
 
 # Paths to different models
 model_paths = {
-    "Mixed Dataset": "d:/Project/model_checkpoint_all_purpose.keras",
-    "Faces": "d:/Project/model_checkpoint_face.keras",
-    "Artistic Images": "d:/Project/model_checkpoint_artistic_final.keras"
+    "Mixed Dataset": "E:/Code/Notebooks/model_checkpoint_all_purpose.keras",
+    "Faces": "E:/Code/Notebooks/model_checkpoint_face.keras",
+    "Artistic Images": "E:/Code/Notebooks/model_checkpoint_artistic.keras"
 }
 
 # Preprocessing function

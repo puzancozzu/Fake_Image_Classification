@@ -122,10 +122,10 @@ def preprocess_image(path):
 keras.utils.get_custom_objects()['featureExtractionLayer'] = featureExtractionLayer
 
 # Load the trained model from the .h5 file
-model = load_model('d:/Project/model_checkpoint_all_purpose.keras')
+model = load_model('E:/Code/Notebooks/model_checkpoint_all_purpose.keras')
 
 # Example test data
-test_image_path = 'd:/Project/test.webp'
+test_image_path = "E:/Code/WIN_20230612_13_30_46_Pro.jpg" #'d:/Project/test.webp'
 
 # Display image
 image = cv2.imread(test_image_path)
